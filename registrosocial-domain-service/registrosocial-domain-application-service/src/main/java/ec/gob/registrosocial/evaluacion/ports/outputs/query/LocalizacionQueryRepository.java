@@ -26,7 +26,7 @@ public interface LocalizacionQueryRepository {
 
 	/**
 	*
-	* Método que obtiene los datos por id de la tabla tbl_accion
+	* Método que obtiene los datos de las provincias
 	*
 	* @name findAllProvincia
 	* @return List<LocalizacionResponseRecord>
@@ -35,7 +35,7 @@ public interface LocalizacionQueryRepository {
 
 	/**
 	*
-	* Método que obtiene los datos por id de la tabla tbl_accion
+	* Método que obtiene los datos de los cantones por id provincia
 	*
 	* @name findCantonByIdProvincia
 	* @param request
@@ -46,7 +46,7 @@ public interface LocalizacionQueryRepository {
 
 	/**
 	*
-	* Método que obtiene los datos por id de la tabla tbl_accion
+	* Método que obtiene los datos de las parroquias por id cantón
 	*
 	* @name findByIdLocalizacion
 	* @param request
