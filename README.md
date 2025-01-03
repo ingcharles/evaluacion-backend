@@ -10,19 +10,19 @@ Ejecuta `mvn clean install`
 
 ### Configuración para Ejecutar la Aplicación:
 
-En IntelliJ IDEA, ve a la clase principal de tu aplicación (RegistroSocialServiceApplication) que se encuentra en el paquete ec.gob.registrosocial.evaluacion.
+- En IntelliJ IDEA, ve a la clase principal de tu aplicación (RegistroSocialServiceApplication) que se encuentra en el paquete ec.gob.registrosocial.evaluacion.
 
-Abre esta clase en el editor de código.
+- Abre esta clase en el editor de código.
 
-Crear una configuración de ejecución (Run Configuration)
+- Crear una configuración de ejecución (Run Configuration)
 
-Haz clic en el menú desplegable de configuraciones de ejecución en la esquina superior derecha de IntelliJ (donde dice "Edit Configurations").
+- Haz clic en el menú desplegable de configuraciones de ejecución en la esquina superior derecha de IntelliJ (donde dice "Edit Configurations").
 
-Haz clic en el botón de "+" para agregar una nueva configuración y selecciona "Spring Boot".
+- Haz clic en el botón de "+" para agregar una nueva configuración y selecciona "Spring Boot".
 
-En el campo active profile ingres la palabra dev
+- En el campo active profile ingres la palabra dev
 
-Navega a http://localhost:8081/api/registrosocial/swagger-ui/index.html. para visualizar las api
+- Navega a http://localhost:8081/api/registrosocial/swagger-ui/index.html. para visualizar las api
 
 ## Repositorio GitHub
 
